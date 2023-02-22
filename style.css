@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@300&display=swap');
+
+html{
+    background-image: url(./IMG-5072.jpg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Labrada', serif;
+}
+
+body
+{
+    background-color: black;
+    width: 80vw;
+    max-width: 0 auto;
+    height: auto;
+    padding: 2em;
+
+}
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro div
+{
+    background-color: rgb(20, 126, 219);
+    width: 70vw;
+    margin-bottom: 1em;
+    padding: 0.7em;
+}
+
+header
+{
+    
+    background-color: red;
+    width: 80%;
+    margin: 1em;
+    text-align: center;
+}
+
+h1,h2,h3
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p>a
+{
+    text-decoration: none;
+    color: rgb(34, 192, 50);
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: rgb(4, 3, 8);
+    transition: 0.7s;
+}
+
+a:focus
+{
+    color: red;
+}
+
+#zen-supporting
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2em; 
+}
+
+#zen-supporting>div
+{
+    padding: 1em;
+    background-color: rgb(203, 154, 47);
+}
+
+/* Aside */
+aside
+{
+    background-color: rgb(20, 126, 219);
+    padding: 1em;
+}
+
+aside a,footer a
+{
+    text-decoration: none;
+    color: rgb(34, 192, 50);
+}
+
+ul
+{
+    background-color: beige;
+}
+
+
+/*Footer*/
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    padding: 1em;
+    color: white;
+    text-align: center;
+  }
